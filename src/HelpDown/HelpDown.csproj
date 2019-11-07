@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Title>HelpDown</Title>
+    <Description>A simple Help system for any ASP.Net Core project</Description>
+    <Copyright>2019 by AliAlp</Copyright>
+    <PackageProjectUrl>https://github.com/alicommit-malp/HelpDown</PackageProjectUrl>
   </PropertyGroup>
 
 </Project>
