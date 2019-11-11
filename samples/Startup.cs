@@ -54,7 +54,7 @@ namespace samples
                 app.UseHsts();
             }
 
-            app.UseHelpDown();
+            app.UseHelpDown(folderName:"customFolderName");
             
             app.UseHttpsRedirection();
             app.UseStaticFiles();
