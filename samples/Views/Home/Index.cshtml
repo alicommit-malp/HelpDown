@@ -15,9 +15,9 @@
     <div style="text-align: left">
 
         @{
-            if (Utils.HelpExist(ViewContext, CultureInfo.CurrentCulture))
+            if (HelpDown.Exists(ViewContext, CultureInfo.CurrentCulture))
             {
-                @Html.Raw(Utils.GenerateHtml(ViewContext, CultureInfo.CurrentCulture))
+                @Html.Raw(HelpDown.GenerateHtml(ViewContext, CultureInfo.CurrentCulture))
             }
         }
     </div>
