@@ -11,6 +11,7 @@
     <RepositoryUrl>https://github.com/alicommit-malp/HelpDown</RepositoryUrl>
     <RepositoryType>GIT</RepositoryType>
     <PackageTags>Help, MarkDown, Documentation</PackageTags>
+    <PackageVersion>1.0.1</PackageVersion>
   </PropertyGroup>
 
   <ItemGroup>
