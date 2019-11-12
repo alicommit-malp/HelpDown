@@ -11,6 +11,11 @@ namespace samples.Controllers
             return View();
         }
 
+        public IActionResult CustomAction()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();

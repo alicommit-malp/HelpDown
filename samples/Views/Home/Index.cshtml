@@ -1,5 +1,4 @@
 ﻿@using System.Globalization
-@using HelpDown
 @{
     ViewData["Title"] = "Home Page";
 }
@@ -12,14 +11,5 @@
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <div style="text-align: left">
-
-        @{
-            if (HelpDown.Exists(ViewContext, CultureInfo.CurrentCulture))
-            {
-                @Html.Raw(HelpDown.GenerateHtml(ViewContext, CultureInfo.CurrentCulture))
-            }
-        }
-    </div>
 
 </div>

@@ -83,7 +83,7 @@ namespace HelpDown
 
 
             return
-                $"{ApplicationExtension.HelpDownFolderName}/{helpPath.GetControllerName()}/{helpPath.GetActionName()}/{src}";
+                $"/{ApplicationExtension.HelpDownFolderName}/{helpPath.GetControllerName()}/{helpPath.GetActionName()}/{src}";
         }
     }
 }
