@@ -30,7 +30,7 @@ namespace HelpDown
 
 
             if (File.Exists(GetAbsolutePath(true)))
-                return Path.Combine(ApplicationExtension.HelpDownRootPath, _controllerName, _actionName,
+                return Path.Combine(ApplicationExtension.HelpDownFolderName, _controllerName, _actionName,
                     $"{ApplicationExtension.DefaultLanguage.ToLower()}.md");
 
             return null;

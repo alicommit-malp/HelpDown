@@ -4,14 +4,14 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Title>HelpDown</Title>
-    <Description>A simple Help system for any ASP.Net Core project</Description>
+    <Description> A simple to use and manage Markdown-based help system for any ASP.Net Core application.</Description>
     <Copyright>2019 by AliAlp</Copyright>
     <PackageProjectUrl>https://github.com/alicommit-malp/HelpDown</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/alicommit-malp/HelpDown/blob/master/LICENSE</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/alicommit-malp/HelpDown</RepositoryUrl>
     <RepositoryType>GIT</RepositoryType>
     <PackageTags>Help, MarkDown, Documentation</PackageTags>
-    <PackageVersion>1.0.1</PackageVersion>
+    <PackageVersion>1.0.2</PackageVersion>
   </PropertyGroup>
 
   <ItemGroup>
